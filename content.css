@@ -1,3 +1,6 @@
+/*Alljärgnev stiil kirjutab üle content.js märgitud inline-stiili, mille kohaselt taust pidi olema sinine. 
+Inline stiile on väga raske üle kirjutada ja ainus, mis aitab, on märkida see !important. 
+Seda !important tuleks kasutada kaalutletult, sest seda enam miski üle ei kirjuta. Kui vähegi võimalik, vältida kasutamist.*/
 body {
     background: green !important;
 }
