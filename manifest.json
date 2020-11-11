@@ -7,7 +7,7 @@
 
   "content_scripts": [
     {
-      "matches": ["https://*tv3.ee/*"],
+      "matches": ["https://tv3.ee/*"],
       "js": ["content.js"]
     }
   ],
